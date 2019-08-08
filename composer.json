@@ -1,0 +1,43 @@
+{
+  "name": "hpolthof/laravel-eloquent-uuid",
+  "description": "Add support for UUIDs to Eloquent",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Paul Olthof",
+      "email": "hi@olthof.tech"
+    }
+  ],
+
+
+  "require": {
+    "laravel/framework": "^5.8",
+    "dyrynda/laravel-efficient-uuid": "^2.3",
+    "ramsey/uuid": "~3.8",
+    "moontoast/math": "^1.1"
+  },
+
+  "require-dev": {
+    "orchestra/testbench": "^3.8"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Hpolthof\\Laravel\\EloquentUuid\\": "src/"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "Hpolthof\\Laravel\\EloquentUuid\\Tests\\": "tests/"
+    }
+  },
+
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Hpolthof\\Laravel\\EloquentUuid\\Providers\\ServiceProvider"
+      ]
+    }
+  }
+}
