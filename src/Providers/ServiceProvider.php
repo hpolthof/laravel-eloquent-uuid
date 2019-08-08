@@ -2,17 +2,9 @@
 
 namespace Hpolthof\Laravel\EloquentUuid\Providers;
 
-use Illuminate\Support\ServiceProvider As BaseServiceProvider;
+use Dyrynda\Database\LaravelEfficientUuidServiceProvider;
 
-class ServiceProvider extends BaseServiceProvider
+class ServiceProvider extends LaravelEfficientUuidServiceProvider
 {
-    public function register()
-    {
 
-    }
-
-    public function boot()
-    {
-
-    }
 }
