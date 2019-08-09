@@ -2,9 +2,7 @@
 
 namespace Hpolthof\Laravel\EloquentUuid\Providers;
 
-use Dyrynda\Database\LaravelEfficientUuidServiceProvider;
-
-class ServiceProvider extends LaravelEfficientUuidServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
 
 }
